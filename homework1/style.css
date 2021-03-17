@@ -1,0 +1,56 @@
+/* unvisit link*/
+a:link{
+    color:red;
+}
+/*visited link*/
+a:visited{
+    color:purple;
+}
+/*mouse over link*/
+a:active{
+    color:blue;
+}
+/*mouse up*/
+a:hover{
+    color:violet;
+}
+/*首頁*/
+.main{
+    font-weight:bolder;
+    font-size:60px;
+    font-style:italic;
+    color:rosybrown;
+    text-align:center; /*置中*/
+    margin-bottom: 10px;
+}
+/*title*/
+.title{
+    font-weight:bold;
+    font-size:20px;
+    margin-bottom:10px;
+    text-align:center;
+}
+/*content*/
+.content{
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+/*小區塊*/
+.box{
+    width:280px;
+    padding:10px;
+    margin:10px;
+    display:inline-block;
+    vertical-align:top;
+}
+/*內文*/
+.word{
+    font-size:20px;
+    font-weight:530;
+}
+/*手機尺寸設定*/
+@media screen and (max-width:600px){
+    .content{width:100%;}
+}
